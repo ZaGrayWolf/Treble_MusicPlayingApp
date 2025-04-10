@@ -5,8 +5,8 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="MySQL_Abhuday",
-        database="DBMS_Project"
+        password="******",
+        database="*****"
     )
 
 def hash_password(password):
